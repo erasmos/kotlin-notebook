@@ -13,7 +13,7 @@ class HigherOrderFunctionSpec : FreeSpec({
             val performerAges = Performers.all.mapNotNull { it.getCurrentAge() }
             val sumOfPerformerAges = performerAges.reduce { x: Int, y: Int -> x + y }
 
-            sumOfPerformerAges shouldBe 215
+            sumOfPerformerAges shouldBe 217
         }
         "returned from another function; example" - {
             "one" {

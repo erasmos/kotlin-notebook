@@ -17,7 +17,7 @@ class InterfaceSpec : FreeSpec({
                 joshuaBell.getDescription() shouldBe "Joshua Bell, Violin"
             }
             "with an implementation" {
-                joshuaBell.getCurrentAge() shouldBe 56
+                joshuaBell.getCurrentAge() shouldBe 57
             }
         }
     }
